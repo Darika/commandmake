@@ -1,0 +1,20 @@
+{
+    "name": "darika/commandmake",
+    "description": "Command for Laravel that allows you to create files as a package. Requires library https://github.com/Jurager/morphy",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Darika",
+            "email": "darikapiterski@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Darika\\Make\\": "src/"
+        }
+    },
+    "require": {
+        "jurager/morphy": "^0.3.0"
+    }
+}
