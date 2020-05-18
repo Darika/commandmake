@@ -9,6 +9,7 @@
             "email": "darikapiterski@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Darika\\Make\\": "src/"
